@@ -1,9 +1,9 @@
-<?php require 'testsession.php'; ?>
+<?php include("testsession.php"); ?>
 <html>
 <head>
 </head>
 <body background="img/background.jpeg">
-<?php require 'navbar.php'; ?>
+<?php include('navbar.php'); ?>
 <div class="container">
     <h1 style="color:white;">profile info:</h1>
     <?php foreach ($steamprofile as $key => $value) { ?>
