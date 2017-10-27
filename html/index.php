@@ -1,4 +1,5 @@
-<?php include("testsession.php"); ?>
+<?php include("userinfo.php"); ?>
+<?php include("steamauth.php"); ?>
 <html>
 <head>
 </head>

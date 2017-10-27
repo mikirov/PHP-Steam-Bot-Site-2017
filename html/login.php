@@ -1,5 +1,5 @@
 <?php
-	require 'steamauth/steamauth.php';
+	require 'steamauth.php';
 	if(isset($_SESSION['steamid']))
 	{
 		 header("Location: /");
@@ -24,7 +24,7 @@
 	</body>
 	<script>
 		function checkterms(){
-			el = document.getElementById("agreeInput").checked;
+			let el = document.getElementById("agreeInput").checked;
 			if(el){
 				return true;
 			}
