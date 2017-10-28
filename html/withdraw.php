@@ -1,4 +1,16 @@
-<?php require 'testsession.php'; ?>
+<?php
+        include("includes/steamauth.php");
+        include("includes/userInfo.php");
+        if (isset($_SESSION['steamid']))
+        {
+                $id = $_SESSION['steamid'];
+
+        }
+        else {
+                header("Location: login.php");
+        }
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,6 +18,6 @@
 		<title></title>
 	</head>
 	<body background="img/background.jpeg">
-		<?php require 'navbar.php';?>
+		<?php require 'includes/navbar.php';?>
 	</body>
 </html>

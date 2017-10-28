@@ -1,5 +1,5 @@
 <?php
-	require 'steamauth.php';
+	require 'includes/steamauth.php';
 	if(isset($_SESSION['steamid']))
 	{
 		 header("Location: /");
