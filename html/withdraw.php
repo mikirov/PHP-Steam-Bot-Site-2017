@@ -1,5 +1,6 @@
-<?php require 'testsession.php'; ?>
-<?php require 'navbar.php'; ?>
+<?php require 'includes/steamauth.php'; ?>
+<?php require 'includes/userInfo.php'; ?>
+<?php require 'includes/navbar.php'; ?>
 <?php
 //load bot inventory
 $url = "http://steamcommunity.com/id/darkshimo/inventory/json/730/2/";
